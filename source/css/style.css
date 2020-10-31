@@ -93,7 +93,7 @@
         display: flex;
         position: relative;
         z-index: 2;
-        float: right;
+        
         
     }
     .header__menu{
@@ -197,12 +197,14 @@
             background-color: #141414;
             transition: all 0.2s ease 0s;
             padding: 70px 0px 0px 0px;
+            
         }
         .header__menu.active{
             top:0;
         }
         .header__list{
             display: block;
+            margin-left: -6 0px;
         }
         .header__list li{
             margin-bottom: 30px;
@@ -265,6 +267,9 @@
             max-width: 250px;
             font-size: 18px;
             font-weight: 100;
+        }
+        .header__list{
+            float:right;
         }
     }
 
